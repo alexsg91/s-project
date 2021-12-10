@@ -1,0 +1,14 @@
+<div id="cardContainer">
+    <img id="userImage" [src]="userInfo.data.picture.large" alt="userImage">
+    <h3 id="smallText"> {{bigText}} </h3>
+    <h1 id="bigText"> {{smallText}} </h1>
+
+    <div class="icon-bar">
+      <span>
+          <i *ngFor="let nav of cardNavIcons"
+             (mouseenter)="mouse(nav)"
+             [class]="nav.icon">
+        </i>
+      </span>
+    </div>
+</div>

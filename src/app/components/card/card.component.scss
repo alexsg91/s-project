@@ -1,0 +1,48 @@
+#userImage {
+    border-radius: 50%;
+    padding: 5px;
+    border: 1px solid grey;
+    z-index: 0;
+    position: relative;
+}
+
+#cardContainer{
+    padding: 30px;
+    border: 2px solid grey;
+    border-radius: 15px;
+    margin-top: 200px;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+}
+
+.icon-bar {
+    margin: auto;
+    max-width: 600px;
+    overflow: auto;
+}
+  
+.icon-bar i {
+    float: left;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    padding: 12px 0;
+    transition: all 0.3s ease;
+    font-size: 36px;
+}
+
+.icon-bar i:hover {
+    color: lightgreen;
+    border-top: 2px solid lightgreen;
+}
+
+#smallText{
+    padding-top: 15px;
+    min-height: 50px
+}
+
+#bigText {
+    padding: 10px;
+    min-height: 80px
+}
